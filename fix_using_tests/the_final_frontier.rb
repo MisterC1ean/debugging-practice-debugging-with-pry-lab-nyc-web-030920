@@ -14,7 +14,7 @@ end
 
 def greet_crew(crew)
   crew.each do |x|
-   crew << "Hello #{x}."
+     return "Hello #{x}."
   end
 end
 
