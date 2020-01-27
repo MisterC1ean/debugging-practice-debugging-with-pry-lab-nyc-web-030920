@@ -13,7 +13,7 @@ def crew
 end
 
 def greet_crew(crew)
-  crew.each { |x| "Hello #{x}." }
+  crew.each { "Hello #." }
   binding.pry
 end
 
