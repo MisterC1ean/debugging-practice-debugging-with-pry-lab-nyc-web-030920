@@ -14,6 +14,7 @@ end
 
 def greet_crew(crew)
   crew.each do |x|
+    binding.pry
     "Hello #{x}."
   end
 end
